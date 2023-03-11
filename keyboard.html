@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="keyboard.css">
+    <title>keyboard</title>
+</head>
+<body>
+    <div id="from">
+        <h1>keyboard Event</h1>
+        <p>onkeydown</p>
+        <input type="text" onkeydown="document.getElementById('from').style.background=this.value">
+        <p>onkeyup</p>
+        <input type="text" onkeyup="document.getElementById('from').style.background=this.value">
+        <p>onkeypress</p>
+        <input type="text" onkeypress="document.getElementById('from').style.background=this.value">
+    </div>
+</body>
+</html>

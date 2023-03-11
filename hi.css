@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0;
+}
+body {
+      font-size: 24px;
+}
+.wrapper{
+    margin: 0px auto;
+    width: 1024px;
+}
+.main{
+    width: 1024px;
+    float: left;
+}
+img{
+    width: 1034px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    border-top: 2px solid #555;
+    border-bottom: 2px solid #555;
+}
+p.logo{
+    width: 1004px;
+    text-align: center;
+    background-color: #555;
+    color:#fff;
+    float: left;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+a{
+    float: right;
+    text-decoration: none;
+    background-color: red;
+    
+}
+p.heading{
+    float: left;
+    color: #555;
+    width: 1024px;
+    font-family: 'Pushster', cursive;
+}
+
+p.para{
+    width: 1024px;
+    float: left;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Document</title>
+</head>
+<body>
+    <button onclick="openfunction()">open </button>
+    <br>
+    <button onclick="mfunction()">move</button>
+    <script>
+    function openfunction(){
+       a= window.open("","","width=500px,height=200px")
+       a.document.write("<p>this hello</p>")
+    }
+    function mfunction(){
+        a.moveTo("100,100")
+    }
+    </script>
+</body>
+</html>

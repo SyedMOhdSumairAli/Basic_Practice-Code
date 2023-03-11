@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("where/nature5.jpg");
+    background-size: 200%;
+    background-size: cover;
+}
+#from{
+    width: 250px;
+    margin: 100px auto 0 auto;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 25px;
+    color: #fff;
+    box-shadow: -2px 2px 15px #000;
+    background-color: rgba(0,0,0,.5);
+}
+input{
+    border-radius: 5px;
+    width: 225px;
+    border: 1px solid #000;
+}
+p{
+    font-size: 20px;
+}
